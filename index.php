@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <!-- Topo //-->
+                    <!-- Topo -->
                     <?php
                         include 'includes/topo.php';
                     ?>
@@ -17,13 +17,13 @@
             </div>
             <div class="row" style="min-height: 500px;">
                 <div class="col-md-12">
-                    <!--Menu //-->
+                    <!--Menu -->
                     <?php
                         include 'includes/menu.php';
                     ?>
             </div>
             <div class="col-md-10" style="padding-top: 50px;">
-                <!--Conteúdo //-->
+                <!--Conteúdo -->
                 <h2>Página Inicial</h2>
                 <?php
                     include 'includes/busca.php';
@@ -89,7 +89,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <!-- Rodapé //-->
+                <!-- Rodapé -->
                 <?php
                     include 'includes/rodape.php';
                 ?>
