@@ -1,6 +1,6 @@
 <?php
 
-//Função para inserir dados de qualuqer tabela
+//Função para inserir dados de qualquer tabela
 function insert (string $entidade, array $dados) : String
 {
     $instrucao = "INSERT INTO {$entidade}";
