@@ -52,7 +52,7 @@
             case 'login':
                 $criterio = [
                     ['email', '=', $email],
-                    ['AND', 'ativo', '=', 1]
+                    ['AND', 'ativo', '=', 1] //Determina se o usuário pode acessar o sistema
                     ];
 
             $retorno = buscar(
@@ -99,7 +99,7 @@
                 $criterio
             );
 
-            header('Location: ../usuarios.php');
+            header('Location: ../usuario.php');
             exit;
             break;
         case 'adm':
@@ -120,7 +120,7 @@
                 $criterio
             );
 
-            header('Location: ../usuarios.php');
+            header('Location: ../usuario.php');
             exit;
             break;
 

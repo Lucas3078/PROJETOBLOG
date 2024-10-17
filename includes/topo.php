@@ -10,7 +10,7 @@
     if(isset($_SESSION['login'])) : ?>
     <div class="card-body test-right">
         Olá <?php echo $_SESSION['login']['usuario']['nome'] ?>!
-        <a href="cor/usuario_repositorio.php?acao=logout" class="btn btn-link btn-sm" role="button">Sair</a>
+        <a href="core/usuario_repositorio.php?acao=logout" class="btn btn-link btn-sm" role="button">Sair</a>
     </div>
     <?php endif ?>
 </div>

@@ -55,7 +55,7 @@ function update (string $entidade, array $dados, array $criterio = []) : string
     return $instrucao;
 }
 
-//Função para selecionar dados de qualuqer tabela
+//Função para selecionar dados de qualquer tabela
 function  select (string $entidade, array $campos, array $criterio = [], string $ordem = null) : string
 {
     $instrucao = " SELECT " . implode(',',$campos);
